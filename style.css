@@ -30,8 +30,8 @@ a {
   color: #FF6D21;
   top: 0;
   height: 60px;
-  position: fixed;
   line-height: 60px;
+  position: fixed;
   width: 100vw;
   z-index: 10;
 }
@@ -298,6 +298,8 @@ a {
   height: 100vh;
   -webkit-transition: transform 0.2s ease-out;
   transition: transform 0.2s ease-out;
+  position: fixed;
+  z-index: 1;
 }
 
 .overlay-menu ul, .overlay-menu li {
